@@ -27,18 +27,22 @@ Import Google Fonts
 --------------------*/
 
 /* main font for menu. */
-@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900);
 /* font for headings, text, tags */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800);
-@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400italic&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400italic&subset=latin,latin-ext);
 
 /*--------------------
 1. General
 --------------------*/
+html {
+    height: 100%;
+}
 
 body {
   margin: 0px;
     font-family: "Open Sans", Sans-serif;
+    height: 100%;
 }
 
 h1,
@@ -89,9 +93,14 @@ section {
 --------------------*/
 
 .navbar-default {
-	background-color: #222;
-	border-color: transparent
+	/*background-color: #222;*/
+	border-color: transparent;
+    background-color: transparent;
 }
+.navbar-default.navbar-shrink {
+        background-color: #222;
+        padding: 10px 0
+    }
 .navbar-default .navbar-brand {
 	color: #fff;
 	font-family: "Montserrat",sans-serif;
@@ -177,6 +186,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
     text-align: center;
+    height: 100%;
     color: #fff;
 }
 
