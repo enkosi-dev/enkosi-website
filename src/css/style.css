@@ -296,15 +296,15 @@ height: 95px;
 --------------------*/
 
 .skills-text h2 {
-	margin: 0 0 30px;
+    margin-top: 4rem;
 }
 
 .skillbars {
-    margin-top: 9rem;
+    margin-top: 3rem;
 }
 
 .skillbar-item {
-    margin-bottom: 6rem;	
+    margin-bottom: 8.5rem;	
 }
 
 .skillbar {
