@@ -295,8 +295,12 @@ height: 95px;
 4.2. Skills
 --------------------*/
 
-.skills-text h2 {
+.skills-text {
     margin-top: 4rem;
+}
+
+.skills-text h2 {
+    margin: 0 0 30px;
 }
 
 .skillbars {
