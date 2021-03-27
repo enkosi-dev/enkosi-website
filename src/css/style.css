@@ -88,6 +88,10 @@ section {
     padding: 70px 0;
 }
 
+.nodisplay {
+    display: none;
+}
+
 /*--------------------
 2. Navigation
 --------------------*/
@@ -396,6 +400,10 @@ figure.effect-bubba img {
 	transition: opacity 0.35s;
 }
 
+figure.effect-bubba.dark img {
+	opacity: 0.6;
+}
+
 figure.effect-bubba:hover img {
 	opacity: 0.4;
 }
@@ -432,7 +440,7 @@ figure.effect-bubba h2 {
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
-	padding-top: 30%;
+	padding-top: 25%;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,-20px,0);
@@ -576,7 +584,10 @@ figure.effect-bubba:hover p {
 --------------------*/
 
 section#contact form {
+    width: 50%;
     margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 section#contact.form-group {
 margin-bottom: 25px;
