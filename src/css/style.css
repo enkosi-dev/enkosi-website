@@ -299,8 +299,12 @@ height: 95px;
 	margin: 0 0 30px;
 }
 
+.skillbars {
+    margin-top: 5rem;
+}
+
 .skillbar-item {
-    margin-bottom: 30px;	
+    margin-bottom: 6rem;	
 }
 
 .skillbar {
