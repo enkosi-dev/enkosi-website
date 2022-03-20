@@ -18,6 +18,7 @@ function getQuestions() {
     if (url) {
         document.querySelector("#question-input").style.display = "none";
         showSection("loading");
+        gtag('event', "question_generation", { 'url': url });
         fetch("https://artiquery.p.rapidapi.com/questions", {
             "method": "POST",
             "headers": {
