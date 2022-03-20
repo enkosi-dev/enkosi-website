@@ -14,6 +14,15 @@ header {
     margin: 0;
 }
 
+.question-panel a {
+    text-decoration: none;
+    color: #7cf6bc;
+}
+
+.question-panel a:hover {
+    color: #284839;
+}
+
 .question-panel p {
     margin-bottom: 0px;
 }
@@ -22,13 +31,8 @@ header {
     font-size: larger;
 }
 
-#question-placeholder a {
-    text-decoration: none;
-    color: #7cf6bc;
-}
-
-#question-placeholder a:hover {
-    color: #284839;
+.answer-block {
+    justify-content: space-between;
 }
 
 #quotes a {
