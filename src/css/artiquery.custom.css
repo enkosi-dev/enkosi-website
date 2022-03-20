@@ -1,0 +1,36 @@
+
+header {
+    padding-top: 3rem !important;
+    padding-bottom: 5rem !important;
+}
+
+.landing {
+    background: transparent url("../images/artiquery/banner-image.jpg") no-repeat fixed center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 50%);
+}
+
+.question-panel {
+    margin: 0;
+}
+
+.question-panel p {
+    margin-bottom: 0px;
+}
+
+.question-header {
+    font-size: larger;
+}
+
+#question-placeholder a {
+    text-decoration: none;
+    color: #7cf6bc;
+}
+
+#question-placeholder a:hover {
+    color: #284839;
+}
+
+#quotes a {
+    text-decoration: none;
+}

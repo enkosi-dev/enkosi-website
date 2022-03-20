@@ -255,7 +255,7 @@ header .intro-text .intro-heading {
     font-size: 15px;
     font-weight: 300;
     line-height: 25px;
-    margin: 20px 100px 60px 100px;
+    margin: 20px 100px 25px 100px;
 }
 
 /*--------------------
@@ -403,7 +403,7 @@ figure.effect-bubba {
 }
 
 figure.effect-bubba img {
-	opacity: 0.8;
+	opacity: 1;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
@@ -449,8 +449,9 @@ figure.effect-bubba h2 {
     font-weight: 700;
     text-transform: uppercase;
 	padding-top: 25%;
-	-webkit-transition: -webkit-transform 0.35s;
-	transition: transform 0.35s;
+    opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(0,-20px,0);
 	transform: translate3d(0,-20px,0);
 }
